@@ -1,0 +1,32 @@
+.menu {
+    position: fixed;
+    top: calc((3vw + 3vh) / 2);
+    left: calc((3vw + 3vh) / 2);   
+    font-size: 40px;
+    transition-duration: 0.5s;
+}
+.menu:hover {
+    font-size: 48px;
+    top: calc((2.8vw + 2.8vh) / 2);
+    left: calc((2.8vw + 2.8vh) / 2);
+    text-shadow: 0 0 7px rgba(122, 45, 75, 0.911);
+}
+.hidden {
+    display: none;
+}
+.menuLink {
+    position: fixed;
+    top: calc((3vw + 3vh) / 2); 
+    font-size: 40px;
+    margin-left: 2vw;
+    color: rgb(255, 255, 255);
+}
+#join {
+    left: calc((5vw + 5vh) / 2);   
+}
+#about {
+    left: calc((12vw + 12vh) / 2);   
+}
+#gallery {
+    left: calc((21.5vw + 21.5vh) / 2);   
+}
