@@ -28,3 +28,4 @@ menu.onclick = function() {
     console.log('reached hidden');
     toggleClass(links, 'hidden');
 }
+*/
