@@ -1,27 +1,5 @@
 /* --- Page Setup --- */
 
-@font-face {
-    font-family: 'nexa_boldregular';
-    src: url('/resources/fonts/nexa_bold-webfont.eot');
-    src: url('/resources/fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/resources/fonts/nexa_bold-webfont.woff2') format('woff2'),
-         url('/resources/fonts/nexa_bold-webfont.woff') format('woff'),
-         url('/resources/fonts/nexa_bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'nexa_lightregular';
-    src: url('/resources/fonts/nexa_light-webfont.eot');
-    src: url('/resources/fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/resources/fonts/nexa_light-webfont.woff2') format('woff2'),
-         url('/resources/fonts/nexa_light-webfont.woff') format('woff'),
-         url('/resources/fonts/nexa_light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* -- HTML file defaults -- */
 
 * {
@@ -32,8 +10,13 @@
 	text-decoration: none;
   font-size: 50px;
 }
+
 *::selection {
+<<<<<<< HEAD
     background-color: rgba(254, 0, 85, 0.658);
+=======
+	background-color: #fe0044;
+>>>>>>> 104aa301ad2af64d56dc533bc39d7e8b6064d796
 }
 
 html,
@@ -42,7 +25,7 @@ body {
 	color: #FE0040;
 	width: 100%;
 	height: auto;
-	font-family: 'nexa_light', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-rendering: optimizeLegibility;
@@ -51,6 +34,7 @@ body {
 	text-transform: none;
 }
 
+<<<<<<< HEAD
 /* -- Navbar -- */
 nav {
   position: absolute;
@@ -105,4 +89,59 @@ nav {
   transform: translate(-50%, -50%);
   width: 20vw;
   height: auto;
+=======
+/* --- Header --- */
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: calc((10vw + 10vh) / 2);
+}
+
+.menu {
+	position: fixed;
+	top: calc((3vw + 3vh) / 2);
+	left: calc((3vw + 3vh) / 2);
+	font-size: 40px;
+	transition-duration: 0.5s;
+}
+
+.menu:hover {
+	font-size: 48px;
+	top: calc((2.8vw + 2.8vh) / 2);
+	left: calc((2.8vw + 2.8vh) / 2);
+	text-shadow: 0 0 7px rgba(122, 45, 75, 0.911);
+}
+
+.hidden {
+	display: none;
+}
+
+.menuLink {
+	font-family: 'Montserrat', sans-serif;
+	position: fixed;
+	font-size: 30px;
+	top: calc((3vw + 3vh) / 2);
+	margin-left: 1.3vw;
+	color: #ffffff;
+	transition: color .5s;
+}
+
+.menuLink:hover {
+	color: #ccc;
+}
+
+#join {
+	left: calc((5vw + 5vh) / 2);
+}
+
+#about {
+	left: calc((12vw + 12vh) / 2);
+}
+
+#gallery {
+	left: calc((21.5vw + 21.5vh) / 2);
+>>>>>>> 104aa301ad2af64d56dc533bc39d7e8b6064d796
 }
