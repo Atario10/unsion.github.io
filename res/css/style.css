@@ -12,11 +12,7 @@
 }
 
 *::selection {
-<<<<<<< HEAD
     background-color: rgba(254, 0, 85, 0.658);
-=======
-	background-color: #fe0044;
->>>>>>> 104aa301ad2af64d56dc533bc39d7e8b6064d796
 }
 
 html,
@@ -34,7 +30,6 @@ body {
 	text-transform: none;
 }
 
-<<<<<<< HEAD
 /* -- Navbar -- */
 nav {
   position: absolute;
@@ -89,59 +84,4 @@ nav {
   transform: translate(-50%, -50%);
   width: 20vw;
   height: auto;
-=======
-/* --- Header --- */
-
-.logo {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: calc((10vw + 10vh) / 2);
-}
-
-.menu {
-	position: fixed;
-	top: calc((3vw + 3vh) / 2);
-	left: calc((3vw + 3vh) / 2);
-	font-size: 40px;
-	transition-duration: 0.5s;
-}
-
-.menu:hover {
-	font-size: 48px;
-	top: calc((2.8vw + 2.8vh) / 2);
-	left: calc((2.8vw + 2.8vh) / 2);
-	text-shadow: 0 0 7px rgba(122, 45, 75, 0.911);
-}
-
-.hidden {
-	display: none;
-}
-
-.menuLink {
-	font-family: 'Montserrat', sans-serif;
-	position: fixed;
-	font-size: 30px;
-	top: calc((3vw + 3vh) / 2);
-	margin-left: 1.3vw;
-	color: #ffffff;
-	transition: color .5s;
-}
-
-.menuLink:hover {
-	color: #ccc;
-}
-
-#join {
-	left: calc((5vw + 5vh) / 2);
-}
-
-#about {
-	left: calc((12vw + 12vh) / 2);
-}
-
-#gallery {
-	left: calc((21.5vw + 21.5vh) / 2);
->>>>>>> 104aa301ad2af64d56dc533bc39d7e8b6064d796
 }
