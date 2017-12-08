@@ -8,7 +8,7 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	text-decoration: none;
-  font-size: 45px;
+	font-size: 45px;
 }
 
 *::selection {
@@ -21,7 +21,7 @@ body {
 	color: #FE0040;
 	width: 100%;
 	height: auto;
-  font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-rendering: optimizeLegibility;
@@ -86,24 +86,6 @@ nav {
   width: 20vw;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* -- Media Queries -- */
 
